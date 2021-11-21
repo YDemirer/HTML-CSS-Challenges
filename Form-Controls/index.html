@@ -14,6 +14,40 @@
   </header>
   <main>
   <form>
+    <label for="cust_name">Customer Name</label>
+    <input type="text" name="cust_name" required>
+  <br>
+
+  <div>
+    <label for="emailaddress">Email address</label>
+    <input type="email" id="email" name="email" required></label>
+    <p>Select T-shirt Colour</p>
+    <input type="radio" id="red" name="tshirt_color" value="red" required>
+    <label for="red">Red</label>
+    <input type="radio" id="blue" name="tshirt_color" value="blue">
+    <label for="blue">Blue</label>
+    <input type="radio" id="green" name="tshirt_color" value="green">
+    <label for="green">Green</label>
+  </div>
+
+  <fieldset>
+<label for="tshirt_size">Choose your size</label>
+<select name="tshirt_size" id="size">
+  <option value="xs">XS</option>
+  <option value="s">S</option>
+  <option value="m">M</option>
+  <option value="l">L</option>
+  <option value="xl">XL</option>
+  <option value="xxl">XXL</option>
+</select>
+  </fieldset>
+
+  <div>
+    <label for="delivery_date">Delivery Date</label>
+    <input type="date" name="delivery_date" 
+    min="2021-11-20" max="2021-12-18" required>
+  </div>
+<input type="submit" value="submit">
     <!-- write your html here-->
     <!-- try writing out the requirements first-->
   </form>
